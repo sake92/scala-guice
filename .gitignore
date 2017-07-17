@@ -3,6 +3,7 @@
 
 # sbt specific
 .cache
+.cache-main
 .history
 .lib/
 dist/*
@@ -15,6 +16,9 @@ project/plugins/project/
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
+.classpath
+.project
+.settings/
 
 # ENSIME specific
 .ensime_cache/
